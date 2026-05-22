@@ -11,10 +11,8 @@ Multi-Table Relational Dataset Sandbox + KumoRFM Integration
 ![Graph](images/ss2.png)
 
 ## Features
-- Multi-table data (Customers, Orders, Products, Events)
-- Real SQL joins for relational features
-- Heterogeneous graph visualization
-- Optional KumoRFM integration
+-A clean, interactive demo that shows how to work with KumoRFM on real multi-table data
+=Includes graph construction and live predictions via the KumoRFM API.
 
 ## Quick Start
 ```bash
