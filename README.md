@@ -1,31 +1,41 @@
 # kumo-simple-app
 
-Minimal relational prediction experiment using KumoRFM.
-
-## Overview
-
-This repository demonstrates a lightweight structured-data inference workflow using pandas DataFrames and KumoRFM.
+Visual relational ML demo using the Kumo SDK.
 
 ## Features
 
-- relational prediction example
-- customer churn inference
-- local python environment
-- dotenv API loading
-- simple Kumo integration
+- customer churn dataset
+- relational graph visualization
+- interactive dashboard
+- Kumo SDK integration
+- Plotly analytics
+- Streamlit frontend
 
 ## Install
 
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-## Execute
+## Run
 
-    source venv/bin/activate
-    python app.py
+```bash
+source venv/bin/activate
+streamlit run dashboard.py
+```
 
-## Example
+## Educational Goals
 
-The application creates a synthetic customer dataset and attempts a relational prediction workflow using the Kumo SDK.
+This project demonstrates:
 
+- graph-based thinking
+- relational machine learning
+- customer churn analysis
+- lightweight Kumo integration
+- interactive ML visualization
+
+## Repository
+
+https://github.com/NullLabTests/kumo-simple-app

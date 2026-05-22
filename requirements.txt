@@ -1,4 +1,6 @@
+streamlit
+plotly
+networkx
+pyvis
 pandas
-numpy
-python-dotenv
 kumoai
