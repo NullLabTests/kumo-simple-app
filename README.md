@@ -1,41 +1,27 @@
 # kumo-simple-app
 
-Visual relational ML demo using the Kumo SDK.
+Multi-Table Relational Dataset Sandbox + KumoRFM Integration
+
+## Screenshots
+
+### Main Dashboard
+![Dashboard](images/ss1.png)
+
+### Relational Graph + Kumo Section
+![Graph](images/ss2.png)
 
 ## Features
+- Multi-table data (Customers, Orders, Products, Events)
+- Real SQL joins for relational features
+- Heterogeneous graph visualization
+- Optional KumoRFM integration
 
-- customer churn dataset
-- relational graph visualization
-- interactive dashboard
-- Kumo SDK integration
-- Plotly analytics
-- Streamlit frontend
-
-## Install
-
+## Quick Start
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-```
-
-## Run
-
-```bash
-source venv/bin/activate
 streamlit run dashboard.py
-```
 
-## Educational Goals
 
-This project demonstrates:
 
-- graph-based thinking
-- relational machine learning
-- customer churn analysis
-- lightweight Kumo integration
-- interactive ML visualization
-
-## Repository
-
-https://github.com/NullLabTests/kumo-simple-app
